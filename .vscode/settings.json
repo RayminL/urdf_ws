@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/lrm/ranger_mini_ws/devel/lib/python3/dist-packages",
+        "/home/lrm/husky_ws/devel/lib/python3/dist-packages",
+        "/home/lrm/demo_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/lrm/ranger_mini_ws/devel/lib/python3/dist-packages",
+        "/home/lrm/husky_ws/devel/lib/python3/dist-packages",
+        "/home/lrm/demo_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

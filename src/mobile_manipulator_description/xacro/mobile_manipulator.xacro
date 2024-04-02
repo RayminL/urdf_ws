@@ -1,0 +1,20 @@
+<robot name="mobile_manipulator" xmlns:xacro="http://wiki.ros.org/xacro">
+
+  <!-- Include ranger_mini.xacro -->
+  <xacro:include filename="$(find ranger_mini_gazebo)/xacro/ranger_mini.xacro" />
+
+  <!-- Include z1.xacro -->
+  <xacro:include filename="$(find z1_description)/xacro/robot.xacro" />
+
+<joint name="arm2base_link" type="fixed">
+        <parent link="base_link" />
+        <child link="link00" />
+        <origin xyz="0.1 0.0 0.2" />
+</joint>
+
+  <!-- <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+    </plugin>
+  </gazebo> -->
+
+</robot>
